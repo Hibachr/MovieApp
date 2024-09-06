@@ -1,0 +1,49 @@
+.Mbody-container {
+  margin: 0;
+  padding: 0;
+  background-color: #121829;
+  display: flex;
+  height: 1432px;
+  position: relative;
+}
+#search-inp {
+  position: relative;
+  width: 344px;
+  height: 64px;
+  left: 120px;
+  bottom: 10px;
+  border-radius: 12px;
+  border: 1px solid white;
+  gap: 16px;
+  align-content: center;
+  align-items: left;
+}
+.cards-div {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 1440px;
+  top: 370px;
+  right: 200px;
+  height: 980px;
+  align-content: flex-start;
+  column-gap: 0.5em;
+  row-gap: 0.5em;
+  align-content: center;
+}
+#label {
+  position: relative;
+  width: 85px;
+  height: 40px;
+  top: 40px;
+  left: 120px;
+  font-family: Poppins;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 40px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  text-decoration: none;
+  color: #767e94;
+}
